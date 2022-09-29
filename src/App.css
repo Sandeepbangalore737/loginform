@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  background-color: rgb(112, 108, 108);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  padding: 20px 50px;
+  background-color: #447ae6;
+}
+.login h1 {
+  margin-bottom: 40px;
+}
+.login input {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: none;
+}
+.login input::placeholder {
+  font-size: medium;
+  padding-left: 1%;
+}
+.login button {
+  margin-top: 25px;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
+.login #error {
+  color: red;
+  font-size: larger;
+}
+#detail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  padding: 20px 50px;
+}
+#detail button {
+  margin-top: 25px;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
+.fulldetail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  background-color: cadetblue;
+}
+.fulldetail input,
+select {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: none;
+}
+.fulldetail select {
+  font-size: medium;
+}
+.fulldetail input::placeholder {
+  font-size: medium;
+  padding-left: 1%;
+}
+.fulldetail button {
+  margin-top: 35px;
+  width: 300px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
